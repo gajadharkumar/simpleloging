@@ -44,8 +44,10 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 //                    TextFields()
-                    AllBasicText()
+//                    AllBasicText()
+                    textAttribute()
                 }
+
             }
         }
     }
@@ -161,5 +163,6 @@ fun TextFields(modifier: Modifier = Modifier) {
 @Composable
 fun TextFieldsPreview() {
 //    TextFields()
-    AllBasicText()
+//    AllBasicText()
+    textAttribute()
 }
